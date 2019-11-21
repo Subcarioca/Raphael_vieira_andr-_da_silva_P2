@@ -17,10 +17,10 @@ def main():
     rectangle = {"bottomLeft":"",
              "topRight":""}
 
-    BLx = float(input('Entre com o BLx para o primeiro retangulo'))
-    BLy = float(input('Entre com o BLy para o primeiro retangulo'))
-    TRx = float(input('Entre com o TRx para  o primeiro retangulo'))
-    TRy = float(input('Entre com o TRy para o primeiro retamgulo'))
+    BLx = float(input('Entre com o BLx para o primeiro retangulo''\n'))
+    BLy = float(input('Entre com o BLy para o primeiro retangulo''\n'))
+    TRx = float(input('Entre com o TRx para  o primeiro retangulo''\n'))
+    TRy = float(input('Entre com o TRy para o primeiro retamgulo''\n'))
 
     BL1 = (BLx, BLy)
     TR1 = (TRx, TRy)
