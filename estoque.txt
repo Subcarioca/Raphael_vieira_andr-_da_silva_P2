@@ -1,0 +1,2 @@
+dict_items([('Nome', '\x1bagua'), ('Quantidade', '25')])
+dict_items([('Nome', 'juquinha'), ('Quantidade', '3')])
