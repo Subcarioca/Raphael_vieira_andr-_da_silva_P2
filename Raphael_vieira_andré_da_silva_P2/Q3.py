@@ -9,7 +9,7 @@ def isCollisionDetected(rec1, rec2):
     rec2_yi = rec2["bottomLeft"][1]
     rec2_yf = rec2["topRight"][1]
 
-    if (rec1_xi < rec2_xf and rec1_xf > rec2_xi and rec1_yi < rec2_yf and rec1_yf > rec2_yi):
+    if (rec1_xi < rec2_xf and rec1_xf > rec2_xi and rec1_yi < rec2_yf and rec1_yf > rec2_yi):          # a chave da questão está na satisfação dessas condições,pois as coordenadas dos retangulos não podem estar dentro do intervalo de uma das outras nos mesmos eixos.
         return True
     return False
 
